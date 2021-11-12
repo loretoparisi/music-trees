@@ -6,9 +6,6 @@ import random
 import warnings
 import sox
 
-import music_trees.utils as utils
-
-
 def get_full_effect_chain():
     effect_chain = ['compand', 'overdrive', 'eq', 'pitch', 'speed',
                     'phaser', 'flanger', 'reverb', 'chorus', 'speed']
